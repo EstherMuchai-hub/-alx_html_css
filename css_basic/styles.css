@@ -32,3 +32,52 @@ header, footer {
   text-align: center;
 }
 
+/* --- Custom Theme --- */
+body {
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #ffb6c1, #ffe4e1);
+  border-bottom: 2px solid #ff8fa3;
+}
+header a {
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+header a:hover {
+  color: #ff4d6d;
+}
+
+/* Article content */
+article {
+  background: #fff7f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  line-height: 1.6;
+}
+article h2 {
+  color: #ff4d6d;
+}
+article p {
+  margin-bottom: 15px;
+}
+
+/* Sidebar */
+aside {
+  background: #fef3f5;
+  border-left: 2px solid #ffb6c1;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #ffeef1;
+  border-top: 2px solid #ff8fa3;
+  color: #444;
+}
+
+
